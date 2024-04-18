@@ -7,9 +7,9 @@ class Auth extends CI_Controller
     {
         parent::__construct();
         $this->load->model('Auth_model');
-        if ($this->session->userdata('is_login') == 1) {
-            redirect('dashboard');
-        }
+        // if ($this->session->userdata('is_login') == 1) {
+        //     redirect('dashboard');
+        // }
     }
 
     public function index()

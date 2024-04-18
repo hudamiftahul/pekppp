@@ -49,7 +49,7 @@
             </div>
             <!--end::Notice-->
             <!-- Content -->
-            <form action="" method="post">
+            <form action="<?= base_url('formulir/proses_tiga') ?>" method="post">
                 <div class="accordion accordion-solid accordion-panel accordion-svg-toggle" id="accordionExample8">
                     <div class="card">
                         <div class="card-header" id="headingOne8">
@@ -626,7 +626,7 @@
                         <div class="card-body p-10">
                             <h3>Bukti Dukung</h3>
                             <p>Form responden yang telah diisi</p>
-                            <div class="dropzone dropzone-default dropzone-danger" id="kt_dropzone_2">
+                            <div class="dropzone dropzone-default dropzone-danger" id="kt_dropzone_formulirtiga">
                                 <div class="dropzone-msg dz-message needsclick">
                                     <h3 class="dropzone-msg-title">Letakkan file di sini atau klik untuk mengunggah</h3>
                                     <span class="dropzone-msg-desc">Unggah hingga 10 file</span>

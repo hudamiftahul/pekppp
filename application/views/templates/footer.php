@@ -192,7 +192,15 @@
 <script src="<?= base_url() ?>assets/js/upload/konsul.js"></script>
 <script src="<?= base_url() ?>assets/js/upload/inovasi.js"></script>
 <script src="<?= base_url() ?>assets/js/upload/tambahan.js"></script>
+<script src="<?= base_url() ?>assets/js/upload/formulir3.js"></script>
 
+<?php if ($this->session->flashdata('success')) : ?>
+    <script>
+        $("#kt_sweetalert_demo_3_3").click(function(e) {
+            Swal.fire("Sukses!", $this->session->flashdata('success'), "success");
+        });
+    </script>
+<?php endif; ?>
 </body>
 <!--end::Body-->
 

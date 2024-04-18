@@ -234,9 +234,21 @@ class Penilaian extends CI_Controller
         redirect('penilaian');
     }
 
+    public function checkdir()
+    {
+        $directory = FCPATH . '/uploads/kepel/' . $this->session->userdata('name') . '/' . date('Y') . '/';
+        if (!file_exists($directory)) {
+            mkdir($directory, 0777, true);
+        }
+    }
+
     public function do_upload_kepel()
     {
-        $config['upload_path']   = FCPATH . '/uploads/kepel/';
+        $directory = FCPATH . '/uploads/kepel/' . $this->session->userdata('name') . '/' . date('Y') . '/';
+        if (!file_exists($directory)) {
+            mkdir($directory, 0777, true);
+        }
+        $config['upload_path']   = $directory;
         $config['allowed_types'] = 'jpeg|pdf|jpg|png|zip|rar';
         $this->load->library('upload', $config);
 
@@ -249,7 +261,11 @@ class Penilaian extends CI_Controller
 
     public function do_upload_profsdm()
     {
-        $config['upload_path']   = FCPATH . '/uploads/profsdm/';
+        $directory = FCPATH . '/uploads/profsdm/' . $this->session->userdata('name') . '/' . date('Y') . '/';
+        if (!file_exists($directory)) {
+            mkdir($directory, 0777, true);
+        }
+        $config['upload_path']   = $directory;
         $config['allowed_types'] = 'jpeg|pdf|jpg|png|zip|rar';
         $this->load->library('upload', $config);
 
@@ -262,7 +278,11 @@ class Penilaian extends CI_Controller
 
     public function do_upload_sarpras()
     {
-        $config['upload_path']   = FCPATH . '/uploads/sarpras/';
+        $directory = FCPATH . '/uploads/sarpras/' . $this->session->userdata('name') . '/' . date('Y') . '/';
+        if (!file_exists($directory)) {
+            mkdir($directory, 0777, true);
+        }
+        $config['upload_path']   = $directory;
         $config['allowed_types'] = 'jpeg|pdf|jpg|png|zip|rar';
         $this->load->library('upload', $config);
 
@@ -275,7 +295,11 @@ class Penilaian extends CI_Controller
 
     public function do_upload_sipp()
     {
-        $config['upload_path']   = FCPATH . '/uploads/sipp/';
+        $directory = FCPATH . '/uploads/sipp/' . $this->session->userdata('name') . '/' . date('Y') . '/';
+        if (!file_exists($directory)) {
+            mkdir($directory, 0777, true);
+        }
+        $config['upload_path']   = $directory;
         $config['allowed_types'] = 'jpeg|pdf|jpg|png|zip|rar';
         $this->load->library('upload', $config);
 
@@ -288,7 +312,11 @@ class Penilaian extends CI_Controller
 
     public function do_upload_konsul()
     {
-        $config['upload_path']   = FCPATH . '/uploads/konsul/';
+        $directory = FCPATH . '/uploads/konsul/' . $this->session->userdata('name') . '/' . date('Y') . '/';
+        if (!file_exists($directory)) {
+            mkdir($directory, 0777, true);
+        }
+        $config['upload_path']   = $directory;
         $config['allowed_types'] = 'jpeg|pdf|jpg|png|zip|rar';
         $this->load->library('upload', $config);
 
@@ -301,7 +329,11 @@ class Penilaian extends CI_Controller
 
     public function do_upload_inovasi()
     {
-        $config['upload_path']   = FCPATH . '/uploads/inovasi/';
+        $directory = FCPATH . '/uploads/inovasi/' . $this->session->userdata('name') . '/' . date('Y') . '/';
+        if (!file_exists($directory)) {
+            mkdir($directory, 0777, true);
+        }
+        $config['upload_path']   = $directory;
         $config['allowed_types'] = 'jpeg|pdf|jpg|png|zip|rar';
         $this->load->library('upload', $config);
 
@@ -314,7 +346,11 @@ class Penilaian extends CI_Controller
 
     public function do_upload_tambahan()
     {
-        $config['upload_path']   = FCPATH . '/uploads/tambahan/';
+        $directory = FCPATH . '/uploads/tambahan/' . $this->session->userdata('name') . '/' . date('Y') . '/';
+        if (!file_exists($directory)) {
+            mkdir($directory, 0777, true);
+        }
+        $config['upload_path']   = $directory;
         $config['allowed_types'] = 'jpeg|pdf|jpg|png|zip|rar';
         $this->load->library('upload', $config);
 

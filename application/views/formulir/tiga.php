@@ -47,6 +47,27 @@
                     <b class="text-danger">*Nb: </b>Setiap Responden wajib mengisi kolom penilaian yang disediakan secara objektif pada angka yang dianggap sesuai. Beri tanda pada angka yang paling sesuai dengan penilaian Anda
                 </div>
             </div>
+            <?php if ($this->session->flashdata('error')) : ?>
+                <div class="alert alert-custom alert-light-danger fade show mb-5" role="alert">
+                    <div class="alert-icon"><i class="flaticon-warning"></i></div>
+                    <div class="alert-text"><?= $this->session->flashdata('error') ?></div>
+                    <div class="alert-close">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true"><i class="ki ki-close"></i></span>
+                        </button>
+                    </div>
+                </div>
+            <?php elseif ($this->session->flashdata('success')) : ?>
+                <div class="alert alert-custom alert-light-success fade show mb-5" role="alert">
+                    <div class="alert-icon"><i class="flaticon-warning"></i></div>
+                    <div class="alert-text"><?= $this->session->flashdata('success') ?></div>
+                    <div class="alert-close">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true"><i class="ki ki-close"></i></span>
+                        </button>
+                    </div>
+                </div>
+            <?php endif; ?>
             <!--end::Notice-->
             <!-- Content -->
             <form action="<?= base_url('formulir/proses_tiga') ?>" method="post">

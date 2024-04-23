@@ -5,7 +5,7 @@ application/cache/*
 /assets/media/
 application/logs/*
 !application/logs/index.html
-
+*.zip
 !application/*/.htaccess
 
 composer.lock

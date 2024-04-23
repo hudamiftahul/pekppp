@@ -25,11 +25,19 @@ class Formulir extends CI_Controller
 
     public function tiga()
     {
-        $this->load->view('templates/header');
-        $this->load->view('templates/sidebar');
-        $this->load->view('templates/topbar');
-        $this->load->view('formulir/tiga');
-        $this->load->view('templates/footer');
+        // get data berdasarkan opd id
+        $formulir = $this->Formulir_model->getByOpdId($this->session->userdata('opd_id'));
+        // check apakah data ditahun ini sudah = 10
+        if (count($formulir) < 10) {
+            $this->load->view('templates/header');
+            $this->load->view('templates/sidebar');
+            $this->load->view('templates/topbar');
+            $this->load->view('formulir/tiga');
+            $this->load->view('templates/footer');
+        } else {
+            // tampilkan terimakasih
+            $this->load->view('access_limit');
+        }
     }
 
     public function proses_tiga()

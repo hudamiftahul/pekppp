@@ -10,6 +10,11 @@ class Formulir_model extends CI_Model
         $this->db->insert($this->table, $data);
     }
 
+    public function getByOpdId($opd_id)
+    {
+        return $this->db->get_where($this->table, ['opd_id' => $opd_id])->result_array();
+    }
+    
     public function inserttiga($table, $data)
     {
         $this->db->insert($table, $data);

@@ -21,10 +21,11 @@
 	<div class="main-content">
 		<i class="fa fa-check main-content__checkmark" id="checkmark"></i>
 		<p class="main-content__body" data-lead-id="main-content-body">Anda telah mencapai batas maksimal inputan. Maks 10 Inputan setiap tahunnya.</p>
+        <a href="<?= base_url('dashboard') ?>">Kembali ke dashboard</a>
 	</div>
 
 	<footer class="site-footer" id="footer" style="margin-top: -80px">
-		<p class="site-footer__fineprint" id="fineprint">Copyright ©2024 | Bagian Organisasi Kota Pasuruan</p>
+		<p class="site-footer__fineprint" id="fineprint">Copyright &copy;2024 | Bagian Organisasi Kota Pasuruan</p>
 	</footer>
 </body>
 </html>

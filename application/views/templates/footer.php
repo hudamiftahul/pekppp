@@ -194,6 +194,61 @@
 <script src="<?= base_url() ?>assets/js/upload/tambahan.js"></script>
 <script src="<?= base_url() ?>assets/js/upload/formulir3.js"></script>
 
+<script>
+    $(document).ready(function() {
+        $("body").on('click', '#hapusbukung',function (e) {
+            e.preventDefault();
+            var table = $(this).data('table');
+            var path = $(this).data('path');
+            var id = $(this).data('id');
+            var namafile = $(this).data('namafile');
+            var url = $(this).attr('href');
+                Swal.fire({
+                    title: "Apa kamu yakin?",
+                    text: "Ingin menghapus file dengan nama " + namafile,
+                    icon: "warning",
+                    showCancelButton: true,
+                    confirmButtonText: "Ya, Hapus!",
+                    cancelButtonText: "Tidak, Batal!",
+                    reverseButtons: true
+                }).then(function(result) {
+                    if (result.value) {
+                        $.ajax({
+                            type: "POST",
+                            url: url,
+                            data: {
+                                "table": table,
+                                "path": path,
+                                "id": id,
+                                "namafile": namafile,
+                            },
+                            dataType: "json",
+                            success: function(jos) {
+                                // console.log(jos);
+                                
+                            },
+                        });
+                        Swal.fire(
+                            "Terhapus!",
+                            "File anda telah terhapus dari sistem.",
+                            "success"
+                        ).then(function() {
+                            window.location.reload();
+                        });
+                        // result.dismiss can be "cancel", "overlay",
+                        // "close", and "timer"
+                    } else if (result.dismiss === "cancel") {
+                        Swal.fire(
+                            "Batal",
+                            "File anda aman :)",
+                            "error"
+                        );
+                    }
+                });
+        });
+    })
+</script>
+
 <?php if ($this->session->flashdata('success')) : ?>
     <script>
         $("#kt_sweetalert_demo_3_3").click(function(e) {

@@ -147,7 +147,7 @@
                                         <?php endif; ?>
                                     </td>
                                     <td>
-
+                                        <a href="<?= base_url('penilaian/edit/') . date('Y', strtotime($input['tanggal'])) ?>" class="text-white badge badge-success badge-shadow font-weight-bold" data-tahun="<?= date('Y', strtotime($input['tanggal'])) ?>">edit</a>
                                     </td>
                                 </tr>
                             <?php endforeach; ?>

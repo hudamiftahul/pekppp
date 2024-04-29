@@ -2,6 +2,7 @@ $(document).ready(function () {
 	Dropzone.autoDiscover = false;
 
 	var id_kepel = $("#kt_dropzone_waktu_pel").data("id_kepel");
+	console.log(id_kepel);
 
 	if (id_kepel != "" && id_kepel != null && typeof id_kepel !== "undefined") {
 		var url_kepel = base_url + "penilaian/do_upload_kepel/" + id_kepel;

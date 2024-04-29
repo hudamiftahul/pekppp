@@ -2632,7 +2632,7 @@
                                                 </div>
                                                 <div class="form-group mt-3">
                                                     <h6>2. Sebutkan judul inovasi tersebut beserta penjelasan singkatnya</h6>
-                                                    <input type="text" name="judul_inovasi" class="form-control" <?= ($inovasi != null) ? $inovasi['judul_inovasi'] : '' ?>>
+                                                    <input type="text" name="judul_inovasi" class="form-control" value="<?= ($inovasi != null) ? $inovasi['judul_inovasi'] : '' ?>">
                                                 </div>
                                                 <div class="form-group mt-3">
                                                     <h6>3. Apakah ada inisiatif untuk berinovasi?</h6>

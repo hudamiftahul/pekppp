@@ -303,8 +303,6 @@
                                                                     <a href="<?= base_url() ?>/<?= $buktiDukung['kepel']['path'] . $bukung['namafile'] ?>" target="_blank" class="badge badge-success">lihat</a>
                                                                     <a href="<?= base_url() ?>penilaian/hapusdukung" class="badge badge-danger" data-table="buktidukungkepel" data-namafile="<?= $bukung['namafile'] ?>" data-id="<?= $bukung['id'] ?>" data-path="<?= $buktiDukung['kepel']['path'] ?>" id="hapusbukung">hapus</a>
                                                                 </li>
-                                                            <?php elseif ($bukung['nomor'] != '1_1' && $bukung['nomor'] != null) : ?>
-                                                                <li class="list-group-item text-center">kosong...</li>
                                                             <?php endif; ?>
                                                         <?php endforeach; ?>
                                                     </ul>
@@ -387,8 +385,6 @@
                                                                     <a href="<?= base_url() ?>/<?= $buktiDukung['kepel']['path'] . $bukung['namafile'] ?>" target="_blank" class="badge badge-success">lihat</a>
                                                                     <a href="<?= base_url() ?>penilaian/hapusdukung" class="badge badge-danger" data-table="buktidukungkepel" data-namafile="<?= $bukung['namafile'] ?>" data-id="<?= $bukung['id'] ?>" data-path="<?= $buktiDukung['kepel']['path'] ?>" id="hapusbukung">hapus</a>
                                                                 </li>
-                                                            <?php elseif ($bukung['nomor'] != '1_2' && $bukung['nomor'] != null) : ?>
-                                                                <li class="list-group-item text-center">kosong...</li>
                                                             <?php endif; ?>
                                                         <?php endforeach; ?>
                                                     </ul>
@@ -481,8 +477,6 @@
                                                                     <a href="<?= base_url() ?>/<?= $buktiDukung['kepel']['path'] . $bukung['namafile'] ?>" target="_blank" class="badge badge-success">lihat</a>
                                                                     <a href="<?= base_url() ?>penilaian/hapusdukung" class="badge badge-danger" data-table="buktidukungkepel" data-namafile="<?= $bukung['namafile'] ?>" data-id="<?= $bukung['id'] ?>" data-path="<?= $buktiDukung['kepel']['path'] ?>" id="hapusbukung">hapus</a>
                                                                 </li>
-                                                            <?php elseif ($bukung['nomor'] != '1_3' && $bukung['nomor'] != null) : ?>
-                                                                <li class="list-group-item text-center">kosong...</li>
                                                             <?php endif; ?>
                                                         <?php endforeach; ?>
                                                     </ul>
@@ -554,8 +548,6 @@
                                                                     <a href="<?= base_url() ?>/<?= $buktiDukung['kepel']['path'] . $bukung['namafile'] ?>" target="_blank" class="badge badge-success">lihat</a>
                                                                     <a href="<?= base_url() ?>penilaian/hapusdukung" class="badge badge-danger" data-table="buktidukungkepel" data-namafile="<?= $bukung['namafile'] ?>" data-id="<?= $bukung['id'] ?>" data-path="<?= $buktiDukung['kepel']['path'] ?>" id="hapusbukung">hapus</a>
                                                                 </li>
-                                                            <?php elseif ($bukung['nomor'] != '1_4' && $bukung['nomor'] != null) : ?>
-                                                                <li class="list-group-item text-center">kosong...</li>
                                                             <?php endif; ?>
                                                         <?php endforeach; ?>
                                                     </ul>
@@ -647,8 +639,6 @@
                                                                     <a href="<?= base_url() ?>/<?= $buktiDukung['kepel']['path'] . $bukung['namafile'] ?>" target="_blank" class="badge badge-success">lihat</a>
                                                                     <a href="<?= base_url() ?>penilaian/hapusdukung" class="badge badge-danger" data-table="buktidukungkepel" data-namafile="<?= $bukung['namafile'] ?>" data-id="<?= $bukung['id'] ?>" data-path="<?= $buktiDukung['kepel']['path'] ?>" id="hapusbukung">hapus</a>
                                                                 </li>
-                                                            <?php elseif ($bukung['nomor'] != '1_5' && $bukung['nomor'] != null) : ?>
-                                                                <li class="list-group-item text-center">kosong...</li>
                                                             <?php endif; ?>
                                                         <?php endforeach; ?>
                                                     </ul>
@@ -759,8 +749,6 @@
                                                                     <a href="<?= base_url() ?>/<?= $buktiDukung['kepel']['path'] . $bukung['namafile'] ?>" target="_blank" class="badge badge-success">lihat</a>
                                                                     <a href="<?= base_url() ?>penilaian/hapusdukung" class="badge badge-danger" data-table="buktidukungkepel" data-namafile="<?= $bukung['namafile'] ?>" data-id="<?= $bukung['id'] ?>" data-path="<?= $buktiDukung['kepel']['path'] ?>" id="hapusbukung">hapus</a>
                                                                 </li>
-                                                            <?php elseif ($bukung['nomor'] != '1_6' && $bukung['nomor'] != null) : ?>
-                                                                <li class="list-group-item text-center">kosong...</li>
                                                             <?php endif; ?>
                                                         <?php endforeach; ?>
                                                     </ul>
@@ -827,8 +815,6 @@
                                                                     <a href="<?= base_url() ?>/<?= $buktiDukung['kepel']['path'] . $bukung['namafile'] ?>" target="_blank" class="badge badge-success">lihat</a>
                                                                     <a href="<?= base_url() ?>penilaian/hapusdukung" class="badge badge-danger" data-table="buktidukungkepel" data-namafile="<?= $bukung['namafile'] ?>" data-id="<?= $bukung['id'] ?>" data-path="<?= $buktiDukung['kepel']['path'] ?>" id="hapusbukung">hapus</a>
                                                                 </li>
-                                                            <?php elseif ($bukung['nomor'] != '1_7' && $bukung['nomor'] != null) : ?>
-                                                                <li class="list-group-item text-center">kosong...</li>
                                                             <?php endif; ?>
                                                         <?php endforeach; ?>
                                                     </ul>
@@ -901,8 +887,6 @@
                                                                     <a href="<?= base_url() ?>/<?= $buktiDukung['kepel']['path'] . $bukung['namafile'] ?>" target="_blank" class="badge badge-success">lihat</a>
                                                                     <a href="<?= base_url() ?>penilaian/hapusdukung" class="badge badge-danger" data-table="buktidukungkepel" data-namafile="<?= $bukung['namafile'] ?>" data-id="<?= $bukung['id'] ?>" data-path="<?= $buktiDukung['kepel']['path'] ?>" id="hapusbukung">hapus</a>
                                                                 </li>
-                                                            <?php elseif ($bukung['nomor'] != '1_8' && $bukung['nomor'] != null) : ?>
-                                                                <li class="list-group-item text-center">kosong...</li>
                                                             <?php endif; ?>
                                                         <?php endforeach; ?>
                                                     </ul>
@@ -980,8 +964,6 @@
                                                                     <a href="<?= base_url() ?>/<?= $buktiDukung['kepel']['path'] . $bukung['namafile'] ?>" target="_blank" class="badge badge-success">lihat</a>
                                                                     <a href="<?= base_url() ?>penilaian/hapusdukung" class="badge badge-danger" data-table="buktidukungkepel" data-namafile="<?= $bukung['namafile'] ?>" data-id="<?= $bukung['id'] ?>" data-path="<?= $buktiDukung['kepel']['path'] ?>" id="hapusbukung">hapus</a>
                                                                 </li>
-                                                            <?php elseif ($bukung['nomor'] != '1_9' && $bukung['nomor'] != null) : ?>
-                                                                <li class="list-group-item text-center">kosong...</li>
                                                             <?php endif; ?>
                                                         <?php endforeach; ?>
                                                     </ul>
@@ -1067,8 +1049,6 @@
                                                                     <a href="<?= base_url() ?>/<?= $buktiDukung['prof_sdm']['path'] . $bukung['namafile'] ?>" target="_blank" class="badge badge-success">lihat</a>
                                                                     <a href="<?= base_url() ?>penilaian/hapusdukung" class="badge badge-danger" data-table="buktidukungprofsdm" data-namafile="<?= $bukung['namafile'] ?>" data-id="<?= $bukung['id'] ?>" data-path="<?= $buktiDukung['prof_sdm']['path'] ?>" id="hapusbukung">hapus</a>
                                                                 </li>
-                                                            <?php elseif ($bukung['nomor'] != '2_1' && $bukung['nomor'] != null) : ?>
-                                                                <li class="list-group-item text-center">kosong...</li>
                                                             <?php endif; ?>
                                                         <?php endforeach; ?>
                                                     </ul>
@@ -1146,8 +1126,6 @@
                                                                     <a href="<?= base_url() ?>/<?= $buktiDukung['prof_sdm']['path'] . $bukung['namafile'] ?>" target="_blank" class="badge badge-success">lihat</a>
                                                                     <a href="<?= base_url() ?>penilaian/hapusdukung" class="badge badge-danger" data-table="buktidukungprofsdm" data-namafile="<?= $bukung['namafile'] ?>" data-id="<?= $bukung['id'] ?>" data-path="<?= $buktiDukung['prof_sdm']['path'] ?>" id="hapusbukung">hapus</a>
                                                                 </li>
-                                                            <?php elseif ($bukung['nomor'] != '2_2' && $bukung['nomor'] != null) : ?>
-                                                                <li class="list-group-item text-center">kosong...</li>
                                                             <?php endif; ?>
                                                         <?php endforeach; ?>
                                                     </ul>
@@ -1221,8 +1199,6 @@
                                                                     <a href="<?= base_url() ?>/<?= $buktiDukung['prof_sdm']['path'] . $bukung['namafile'] ?>" target="_blank" class="badge badge-success">lihat</a>
                                                                     <a href="<?= base_url() ?>penilaian/hapusdukung" class="badge badge-danger" data-table="buktidukungprofsdm" data-namafile="<?= $bukung['namafile'] ?>" data-id="<?= $bukung['id'] ?>" data-path="<?= $buktiDukung['prof_sdm']['path'] ?>" id="hapusbukung">hapus</a>
                                                                 </li>
-                                                            <?php elseif ($bukung['nomor'] != '2_3' && $bukung['nomor'] != null) : ?>
-                                                                <li class="list-group-item text-center">kosong...</li>
                                                             <?php endif; ?>
                                                         <?php endforeach; ?>
                                                     </ul>
@@ -1292,8 +1268,6 @@
                                                                     <a href="<?= base_url() ?>/<?= $buktiDukung['prof_sdm']['path'] . $bukung['namafile'] ?>" target="_blank" class="badge badge-success">lihat</a>
                                                                     <a href="<?= base_url() ?>penilaian/hapusdukung" class="badge badge-danger" data-table="buktidukungprofsdm" data-namafile="<?= $bukung['namafile'] ?>" data-id="<?= $bukung['id'] ?>" data-path="<?= $buktiDukung['prof_sdm']['path'] ?>" id="hapusbukung">hapus</a>
                                                                 </li>
-                                                            <?php elseif ($bukung['nomor'] != '2_4' && $bukung['nomor'] != null) : ?>
-                                                                <li class="list-group-item text-center">kosong...</li>
                                                             <?php endif; ?>
                                                         <?php endforeach; ?>
                                                     </ul>
@@ -1360,8 +1334,6 @@
                                                                     <a href="<?= base_url() ?>/<?= $buktiDukung['prof_sdm']['path'] . $bukung['namafile'] ?>" target="_blank" class="badge badge-success">lihat</a>
                                                                     <a href="<?= base_url() ?>penilaian/hapusdukung" class="badge badge-danger" data-table="buktidukungprofsdm" data-namafile="<?= $bukung['namafile'] ?>" data-id="<?= $bukung['id'] ?>" data-path="<?= $buktiDukung['prof_sdm']['path'] ?>" id="hapusbukung">hapus</a>
                                                                 </li>
-                                                            <?php elseif ($bukung['nomor'] != '2_5' && $bukung['nomor'] != null) : ?>
-                                                                <li class="list-group-item text-center">kosong...</li>
                                                             <?php endif; ?>
                                                         <?php endforeach; ?>
                                                     </ul>
@@ -1453,8 +1425,6 @@
                                                                     <a href="<?= base_url() ?>/<?= $buktiDukung['sarpras']['path'] . $bukung['namafile'] ?>" target="_blank" class="badge badge-success">lihat</a>
                                                                     <a href="<?= base_url() ?>penilaian/hapusdukung" class="badge badge-danger" data-table="buktidukungsarpras" data-namafile="<?= $bukung['namafile'] ?>" data-id="<?= $bukung['id'] ?>" data-path="<?= $buktiDukung['sarpras']['path'] ?>" id="hapusbukung">hapus</a>
                                                                 </li>
-                                                            <?php elseif ($bukung['nomor'] != '3_1' && $bukung['nomor'] != null) : ?>
-                                                                <li class="list-group-item text-center">kosong...</li>
                                                             <?php endif; ?>
                                                         <?php endforeach; ?>
                                                     </ul>
@@ -1533,8 +1503,6 @@
                                                                     <a href="<?= base_url() ?>/<?= $buktiDukung['sarpras']['path'] . $bukung['namafile'] ?>" target="_blank" class="badge badge-success">lihat</a>
                                                                     <a href="<?= base_url() ?>penilaian/hapusdukung" class="badge badge-danger" data-table="buktidukungsarpras" data-namafile="<?= $bukung['namafile'] ?>" data-id="<?= $bukung['id'] ?>" data-path="<?= $buktiDukung['sarpras']['path'] ?>" id="hapusbukung">hapus</a>
                                                                 </li>
-                                                            <?php elseif ($bukung['nomor'] != '3_2' && $bukung['nomor'] != null) : ?>
-                                                                <li class="list-group-item text-center">kosong...</li>
                                                             <?php endif; ?>
                                                         <?php endforeach; ?>
                                                     </ul>
@@ -1615,8 +1583,6 @@
                                                                     <a href="<?= base_url() ?>/<?= $buktiDukung['sarpras']['path'] . $bukung['namafile'] ?>" target="_blank" class="badge badge-success">lihat</a>
                                                                     <a href="<?= base_url() ?>penilaian/hapusdukung" class="badge badge-danger" data-table="buktidukungsarpras" data-namafile="<?= $bukung['namafile'] ?>" data-id="<?= $bukung['id'] ?>" data-path="<?= $buktiDukung['sarpras']['path'] ?>" id="hapusbukung">hapus</a>
                                                                 </li>
-                                                            <?php elseif ($bukung['nomor'] != '3_3' && $bukung['nomor'] != null) : ?>
-                                                                <li class="list-group-item text-center">kosong...</li>
                                                             <?php endif; ?>
                                                         <?php endforeach; ?>
                                                     </ul>
@@ -1710,8 +1676,6 @@
                                                                     <a href="<?= base_url() ?>/<?= $buktiDukung['sarpras']['path'] . $bukung['namafile'] ?>" target="_blank" class="badge badge-success">lihat</a>
                                                                     <a href="<?= base_url() ?>penilaian/hapusdukung" class="badge badge-danger" data-table="buktidukungsarpras" data-namafile="<?= $bukung['namafile'] ?>" data-id="<?= $bukung['id'] ?>" data-path="<?= $buktiDukung['sarpras']['path'] ?>" id="hapusbukung">hapus</a>
                                                                 </li>
-                                                            <?php elseif ($bukung['nomor'] != '3_4' && $bukung['nomor'] != null) : ?>
-                                                                <li class="list-group-item text-center">kosong...</li>
                                                             <?php endif; ?>
                                                         <?php endforeach; ?>
                                                     </ul>
@@ -1796,8 +1760,6 @@
                                                                     <a href="<?= base_url() ?>/<?= $buktiDukung['sarpras']['path'] . $bukung['namafile'] ?>" target="_blank" class="badge badge-success">lihat</a>
                                                                     <a href="<?= base_url() ?>penilaian/hapusdukung" class="badge badge-danger" data-table="buktidukungsarpras" data-namafile="<?= $bukung['namafile'] ?>" data-id="<?= $bukung['id'] ?>" data-path="<?= $buktiDukung['sarpras']['path'] ?>" id="hapusbukung">hapus</a>
                                                                 </li>
-                                                            <?php elseif ($bukung['nomor'] != '3_5' && $bukung['nomor'] != null) : ?>
-                                                                <li class="list-group-item text-center">kosong...</li>
                                                             <?php endif; ?>
                                                         <?php endforeach; ?>
                                                     </ul>
@@ -1867,8 +1829,6 @@
                                                                     <a href="<?= base_url() ?>/<?= $buktiDukung['sarpras']['path'] . $bukung['namafile'] ?>" target="_blank" class="badge badge-success">lihat</a>
                                                                     <a href="<?= base_url() ?>penilaian/hapusdukung" class="badge badge-danger" data-table="buktidukungsarpras" data-namafile="<?= $bukung['namafile'] ?>" data-id="<?= $bukung['id'] ?>" data-path="<?= $buktiDukung['sarpras']['path'] ?>" id="hapusbukung">hapus</a>
                                                                 </li>
-                                                            <?php elseif ($bukung['nomor'] != '3_6' && $bukung['nomor'] != null) : ?>
-                                                                <li class="list-group-item text-center">kosong...</li>
                                                             <?php endif; ?>
                                                         <?php endforeach; ?>
                                                     </ul>
@@ -1990,8 +1950,6 @@
                                                                     <a href="<?= base_url() ?>/<?= $buktiDukung['sipp']['path'] . $bukung['namafile'] ?>" target="_blank" class="badge badge-success">lihat</a>
                                                                     <a href="<?= base_url() ?>penilaian/hapusdukung" class="badge badge-danger" data-table="buktidukungsipp" data-namafile="<?= $bukung['namafile'] ?>" data-id="<?= $bukung['id'] ?>" data-path="<?= $buktiDukung['sipp']['path'] ?>" id="hapusbukung">hapus</a>
                                                                 </li>
-                                                            <?php elseif ($bukung['nomor'] != '4_1' && $bukung['nomor'] != null) : ?>
-                                                                <li class="list-group-item text-center">kosong...</li>
                                                             <?php endif; ?>
                                                         <?php endforeach; ?>
                                                     </ul>
@@ -2060,8 +2018,6 @@
                                                                     <a href="<?= base_url() ?>/<?= $buktiDukung['sipp']['path'] . $bukung['namafile'] ?>" target="_blank" class="badge badge-success">lihat</a>
                                                                     <a href="<?= base_url() ?>penilaian/hapusdukung" class="badge badge-danger" data-table="buktidukungsipp" data-namafile="<?= $bukung['namafile'] ?>" data-id="<?= $bukung['id'] ?>" data-path="<?= $buktiDukung['sipp']['path'] ?>" id="hapusbukung">hapus</a>
                                                                 </li>
-                                                            <?php elseif ($bukung['nomor'] != '4_2' && $bukung['nomor'] != null) : ?>
-                                                                <li class="list-group-item text-center">kosong...</li>
                                                             <?php endif; ?>
                                                         <?php endforeach; ?>
                                                     </ul>
@@ -2175,8 +2131,6 @@
                                                                     <a href="<?= base_url() ?>/<?= $buktiDukung['sipp']['path'] . $bukung['namafile'] ?>" target="_blank" class="badge badge-success">lihat</a>
                                                                     <a href="<?= base_url() ?>penilaian/hapusdukung" class="badge badge-danger" data-table="buktidukungsipp" data-namafile="<?= $bukung['namafile'] ?>" data-id="<?= $bukung['id'] ?>" data-path="<?= $buktiDukung['sipp']['path'] ?>" id="hapusbukung">hapus</a>
                                                                 </li>
-                                                            <?php elseif ($bukung['nomor'] != '4_3' && $bukung['nomor'] != null) : ?>
-                                                                <li class="list-group-item text-center">kosong...</li>
                                                             <?php endif; ?>
                                                         <?php endforeach; ?>
                                                     </ul>
@@ -2244,8 +2198,6 @@
                                                                     <a href="<?= base_url() ?>/<?= $buktiDukung['sipp']['path'] . $bukung['namafile'] ?>" target="_blank" class="badge badge-success">lihat</a>
                                                                     <a href="<?= base_url() ?>penilaian/hapusdukung" class="badge badge-danger" data-table="buktidukungsipp" data-namafile="<?= $bukung['namafile'] ?>" data-id="<?= $bukung['id'] ?>" data-path="<?= $buktiDukung['sipp']['path'] ?>" id="hapusbukung">hapus</a>
                                                                 </li>
-                                                            <?php elseif ($bukung['nomor'] != '4_4' && $bukung['nomor'] != null) : ?>
-                                                                <li class="list-group-item text-center">kosong...</li>
                                                             <?php endif; ?>
                                                         <?php endforeach; ?>
                                                     </ul>
@@ -2320,8 +2272,6 @@
                                                                     <a href="<?= base_url() ?>/<?= $buktiDukung['konsul']['path'] . $bukung['namafile'] ?>" target="_blank" class="badge badge-success">lihat</a>
                                                                     <a href="<?= base_url() ?>penilaian/hapusdukung" class="badge badge-danger" data-table="buktidukungkonsul" data-namafile="<?= $bukung['namafile'] ?>" data-id="<?= $bukung['id'] ?>" data-path="<?= $buktiDukung['konsul']['path'] ?>" id="hapusbukung">hapus</a>
                                                                 </li>
-                                                            <?php elseif ($bukung['nomor'] != '5_1' && $bukung['nomor'] != null) : ?>
-                                                                <li class="list-group-item text-center">kosong...</li>
                                                             <?php endif; ?>
                                                         <?php endforeach; ?>
                                                     </ul>
@@ -2408,8 +2358,6 @@
                                                                     <a href="<?= base_url() ?>/<?= $buktiDukung['konsul']['path'] . $bukung['namafile'] ?>" target="_blank" class="badge badge-success">lihat</a>
                                                                     <a href="<?= base_url() ?>penilaian/hapusdukung" class="badge badge-danger" data-table="buktidukungkonsul" data-namafile="<?= $bukung['namafile'] ?>" data-id="<?= $bukung['id'] ?>" data-path="<?= $buktiDukung['konsul']['path'] ?>" id="hapusbukung">hapus</a>
                                                                 </li>
-                                                            <?php elseif ($bukung['nomor'] != '5_2' && $bukung['nomor'] != null) : ?>
-                                                                <li class="list-group-item text-center">kosong...</li>
                                                             <?php endif; ?>
                                                         <?php endforeach; ?>
                                                     </ul>
@@ -2522,8 +2470,6 @@
                                                                     <a href="<?= base_url() ?>/<?= $buktiDukung['konsul']['path'] . $bukung['namafile'] ?>" target="_blank" class="badge badge-success">lihat</a>
                                                                     <a href="<?= base_url() ?>penilaian/hapusdukung" class="badge badge-danger" data-table="buktidukungkonsul" data-namafile="<?= $bukung['namafile'] ?>" data-id="<?= $bukung['id'] ?>" data-path="<?= $buktiDukung['konsul']['path'] ?>" id="hapusbukung">hapus</a>
                                                                 </li>
-                                                            <?php elseif ($bukung['nomor'] != '5_3' && $bukung['nomor'] != null) : ?>
-                                                                <li class="list-group-item text-center">kosong...</li>
                                                             <?php endif; ?>
                                                         <?php endforeach; ?>
                                                     </ul>
@@ -2586,8 +2532,6 @@
                                                                     <a href="<?= base_url() ?>/<?= $buktiDukung['konsul']['path'] . $bukung['namafile'] ?>" target="_blank" class="badge badge-success">lihat</a>
                                                                     <a href="<?= base_url() ?>penilaian/hapusdukung" class="badge badge-danger" data-table="buktidukungkonsul" data-namafile="<?= $bukung['namafile'] ?>" data-id="<?= $bukung['id'] ?>" data-path="<?= $buktiDukung['konsul']['path'] ?>" id="hapusbukung">hapus</a>
                                                                 </li>
-                                                            <?php elseif ($bukung['nomor'] != '5_4' && $bukung['nomor'] != null) : ?>
-                                                                <li class="list-group-item text-center">kosong...</li>
                                                             <?php endif; ?>
                                                         <?php endforeach; ?>
                                                     </ul>
@@ -2709,8 +2653,6 @@
                                                                     <a href="<?= base_url() ?>/<?= $buktiDukung['inovasi']['path'] . $bukung['namafile'] ?>" target="_blank" class="badge badge-success">lihat</a>
                                                                     <a href="<?= base_url() ?>penilaian/hapusdukung" class="badge badge-danger" data-table="buktidukunginovasi" data-namafile="<?= $bukung['namafile'] ?>" data-id="<?= $bukung['id'] ?>" data-path="<?= $buktiDukung['inovasi']['path'] ?>" id="hapusbukung">hapus</a>
                                                                 </li>
-                                                            <?php elseif ($bukung['nomor'] != '6_1' && $bukung['nomor'] != null) : ?>
-                                                                <li class="list-group-item text-center">kosong...</li>
                                                             <?php endif; ?>
                                                         <?php endforeach; ?>
                                                     </ul>
@@ -2792,8 +2734,6 @@
                                                                     <a href="<?= base_url() ?>/<?= $buktiDukung['inovasi']['path'] . $bukung['namafile'] ?>" target="_blank" class="badge badge-success">lihat</a>
                                                                     <a href="<?= base_url() ?>penilaian/hapusdukung" class="badge badge-danger" data-table="buktidukunginovasi" data-namafile="<?= $bukung['namafile'] ?>" data-id="<?= $bukung['id'] ?>" data-path="<?= $buktiDukung['inovasi']['path'] ?>" id="hapusbukung">hapus</a>
                                                                 </li>
-                                                            <?php elseif ($bukung['nomor'] != '6_2' && $bukung['nomor'] != null) : ?>
-                                                                <li class="list-group-item text-center">kosong...</li>
                                                             <?php endif; ?>
                                                         <?php endforeach; ?>
                                                     </ul>
@@ -2875,8 +2815,6 @@
                                                                     <a href="<?= base_url() ?>/<?= $buktiDukung['tambahan']['path'] . $bukung['namafile'] ?>" target="_blank" class="badge badge-success">lihat</a>
                                                                     <a href="<?= base_url() ?>penilaian/hapusdukung" class="badge badge-danger" data-table="buktidukungtambahan" data-namafile="<?= $bukung['namafile'] ?>" data-id="<?= $bukung['id'] ?>" data-path="<?= $buktiDukung['tambahan']['path'] ?>" id="hapusbukung">hapus</a>
                                                                 </li>
-                                                            <?php elseif ($bukung['nomor'] != '7_1' && $bukung['nomor'] != null) : ?>
-                                                                <li class="list-group-item text-center">kosong...</li>
                                                             <?php endif; ?>
                                                         <?php endforeach; ?>
                                                     </ul>

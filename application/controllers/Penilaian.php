@@ -26,7 +26,7 @@ class Penilaian extends CI_Controller
     public function index()
     {
         $user_id = $this->session->userdata('user_id');
-        $ata['no'] = 1;
+        $data['no'] = 1;
         $data['sts_input'] = $this->Penilaian_model->get_sts($user_id);
         $this->load->view('templates/header');
         $this->load->view('templates/sidebar');
@@ -37,6 +37,7 @@ class Penilaian extends CI_Controller
 
     public function create()
     {
+        return redirect('penilaian');
         $this->load->view('templates/header');
         $this->load->view('templates/sidebar');
         $this->load->view('templates/topbar');
@@ -46,6 +47,7 @@ class Penilaian extends CI_Controller
 
     public function edit($tahun = '')
     {
+        return redirect('penilaian');
         // find (table, where)
         $user_id = $this->session->userdata('user_id');
         $data['buktiDukung'] = $this->buktiDukung($tahun);
@@ -69,6 +71,30 @@ class Penilaian extends CI_Controller
         }
     }
 
+    public function show($tahun = '')
+    {
+        $user_id = $this->session->userdata('user_id');
+        $data['buktiDukung'] = $this->buktiDukung($tahun);
+        
+        if ($user_id != NULL) {
+            $data['user_id'] = $user_id;
+            $data['kepel'] = $this->Penilaian_model->find('kepel', $user_id, $tahun);
+            $data['prof_sdm'] = $this->Penilaian_model->find('prof_sdm', $user_id, $tahun);
+            $data['sarpras'] = $this->Penilaian_model->find('sarpras', $user_id, $tahun);
+            $data['sipp'] = $this->Penilaian_model->find('sipp', $user_id, $tahun);
+            $data['konsul'] = $this->Penilaian_model->find('konsul', $user_id, $tahun);
+            $data['inovasi'] = $this->Penilaian_model->find('inovasi', $user_id, $tahun);
+            $data['tambahan'] = $this->Penilaian_model->find('tambahan', $user_id, $tahun);
+            $this->load->view('templates/header');
+            $this->load->view('templates/sidebar');
+            $this->load->view('templates/topbar');
+            $this->load->view('penilaian/show', $data);
+            $this->load->view('templates/footer');
+        } else {
+            redirect('penilaian');
+        }
+    }
+
     public function hapusdukung()
     {
         $post = $this->input->post();
@@ -85,6 +111,7 @@ class Penilaian extends CI_Controller
 
     public function update()
     {
+        return redirect('penilaian');
         $user_id = htmlspecialchars($this->input->post('user_id'));
         if ($user_id === $this->session->userdata('user_id')) {
             $post = $this->input->post();
@@ -658,6 +685,7 @@ class Penilaian extends CI_Controller
 
     public function store()
     {
+        return redirect('penilaian');
         $post = $this->input->post();
 
         // kepel:begin

@@ -246,6 +246,20 @@
                     }
                 });
         });
+        $("body").on('click', '#TambahF01', function (ev) {
+            ev.preventDefault();
+            Swal.fire("Batas Akhir", "Maaf fitur tambah sedang ditutup. mengingat kembali tanggal 30 April 2024 pengisian akhir", "info");
+        })
+        $("body").on('click', '#tombolEditF01', function (ev) {
+            ev.preventDefault();
+            Swal.fire("Batas Akhir", "Maaf fitur edit sedang ditutup. mengingat kembali tanggal 30 April 2024 pengisian akhir", "info");
+        })
+        $("body").on('click', '#menuF03', function (ev) {
+            ev.preventDefault();
+            Swal.fire("Batas Akhir", "Maaf pengisian F03 sedang ditutup. mengingat kembali tanggal 30 April 2024 pengisian akhir", "info");
+        })
+
+        $("#showForm input").prop("disabled", true);
     })
 </script>
 

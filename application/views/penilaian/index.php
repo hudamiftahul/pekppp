@@ -61,7 +61,7 @@
                     </div>
                     <div class="card-toolbar">
                         <!--begin::Button-->
-                        <a href="<?= base_url(); ?>penilaian/create" class="btn btn-danger font-weight-bolder">
+                        <a href="<?= base_url(); ?>penilaian/create" class="btn btn-danger font-weight-bolder" id="TambahF01">
                             <span class="svg-icon svg-icon-md">
                                 <!--begin::Svg Icon | path:assets/media/svg/icons/Design/Flatten.svg-->
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
@@ -134,7 +134,7 @@
                         <tbody>
                             <?php foreach ($sts_input as $input) : ?>
                                 <tr>
-                                    <td>1.</td>
+                                    <td><?= $no; ?>.</td>
                                     <td><?= $input['fullname']; ?></td>
                                     <td><?= $input['tanggal']; ?></td>
                                     <td>
@@ -147,9 +147,11 @@
                                         <?php endif; ?>
                                     </td>
                                     <td>
-                                        <a href="<?= base_url('penilaian/edit/') . date('Y', strtotime($input['tanggal'])) ?>" class="text-white badge badge-success badge-shadow font-weight-bold" data-tahun="<?= date('Y', strtotime($input['tanggal'])) ?>">edit</a>
+                                        <a href="<?= base_url('penilaian/edit/') . date('Y', strtotime($input['tanggal'])) ?>" class="text-white badge badge-success badge-shadow font-weight-bold" id="tombolEditF01" data-tahun="<?= date('Y', strtotime($input['tanggal'])) ?>">edit</a>
+                                        <a href="<?= base_url('penilaian/show/') . date('Y', strtotime($input['tanggal'])) ?>" class="text-white badge badge-info badge-shadow font-weight-bold" data-tahun="<?= date('Y', strtotime($input['tanggal'])) ?>">show</a>
                                     </td>
                                 </tr>
+                                <?php $no++; ?>
                             <?php endforeach; ?>
                         </tbody>
                     </table>

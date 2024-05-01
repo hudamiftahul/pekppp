@@ -25,6 +25,7 @@ class Formulir extends CI_Controller
 
     public function tiga()
     {
+        return redirect('penilaian');
         // get data berdasarkan opd id
         $formulir = $this->Formulir_model->getByOpdId($this->session->userdata('opd_id'));
         // check apakah data ditahun ini sudah = 10
